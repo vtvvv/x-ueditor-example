@@ -1,0 +1,4 @@
+spring:  main:    allow-bean-definition-overriding: trueserver:  port: 8081
+#ueditor:
+#  root-path: /ueditordir #文件存储根目录(可选配置),默认为[classpath:/static]#  config-path: /ueditor
+#  server-url: /ueditor/jsp/controller #服务器统一请求接口路径(可选配置),默认为[/ueditor/jsp/controller]#  upload: cn.jasonone.ueditor.upload.LocationFileStorage #文件持久化处理类(可选配置),默认为[cn.jasonone.ueditor.upload.LocationFileStorage]
